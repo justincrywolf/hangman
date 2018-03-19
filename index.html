@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hangman</title>
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body background="https://www.travelandinspiration.com/wp-content/uploads/2017/05/kiyomizu-dera-temple-kyoto-japan.jpg">
+    
+    <div class="container">
+        
+        <div class="jumbotron">
+            <h1>Classic Hangman</h1>
+            <p>Places I've been</p>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Word to Guess</h3>
+            </div>
+            <div class="panel-body">
+                <h2 id="wordToGuess">_ _ _ _ _ _ _</h2>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Wrong Letters: <span id="wrongLetters"></span>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Guesses Left: <span id="guessesLeft">8</span>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Wins: <span id="winCount">0</span>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Losses: <span id="lossCount">0</span>
+            </div>
+        </div>
+
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
